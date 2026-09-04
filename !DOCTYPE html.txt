@@ -1,125 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth" >
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>D.C. Custom Prints & Molds</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
-  <style>
-    /* Enable dark mode throughout */
-    html {
-      color-scheme: dark;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.C. Custom Prints & Molds</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col">
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
 
-  <!-- Header / Hero -->
-  <header class="flex flex-col items-center justify-center text-center px-6 py-20 border-b border-gray-700">
-    <h1 class="text-5xl font-extrabold mb-4">D.C. Custom Prints & Molds</h1>
-    <p class="text-lg max-w-xl mb-8">
-      Durable FDM prints with fast, local turnaround in Washington D.C.
-    </p>
-    <a href="#featured-products" class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-semibold px-6 py-3 rounded-md transition">
-      View Catalog
-    </a>
-  </header>
+    <header class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl font-extrabold tracking-tight text-white mb-4">D.C. Custom Prints & Molds</h1>
+        <p class="text-xl text-gray-400 mb-8">Durable FDM manufacturing for local makers. Specializing in rapid-prototyping, custom wax molds, and articulated models.</p>
+        <a href="#catalog" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-200">View Catalog</a>
+    </header>
 
-  <!-- Featured Products Grid -->
-  <section id="featured-products" class="px-6 py-16 max-w-6xl mx-auto w-full">
-    <h2 class="text-3xl font-semibold mb-12 text-center">Featured Products</h2>
-    <div class="grid gap-10 sm:grid-cols-2">
-      
-      <!-- Custom Candle/Soap Molds -->
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col justify-between">
-        <div>
-          <div class="w-full h-48 bg-gray-700 rounded-md mb-4 flex items-center justify-center text-gray-500 text-xl select-none">
-            Image Placeholder
-          </div>
-          <h3 class="text-xl font-semibold mb-2">Custom Candle/Soap Molds</h3>
-          <p class="text-gray-400 mb-6">
-            Precision molds tailored to your unique design for candles and soaps.
-          </p>
+    <hr class="border-gray-800 max-w-5xl mx-auto">
+
+    <section id="catalog" class="max-w-5xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-8 text-center text-white">Current Stock & Ready to Print</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-700">
+                <div class="h-48 bg-gray-700 rounded mb-4 flex items-center justify-center text-gray-500">[Insert Blender Render Image Here]</div>
+                <h3 class="text-xl font-bold text-white mb-2">Custom Candle & Soap Molds</h3>
+                <p class="text-gray-400 mb-4">Parametric OpenSCAD designs optimized for easy release. Printed in durable PLA.</p>
+                <a href="#" class="block text-center w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-200">Buy Now ($15)</a>
+            </div>
+
+            <div class="bg-gray-800 rounded-lg p-6 shadow-lg border border-gray-700">
+                <div class="h-48 bg-gray-700 rounded mb-4 flex items-center justify-center text-gray-500">[Insert Spinosaurus Photo Here]</div>
+                <h3 class="text-xl font-bold text-white mb-2">Articulated Spinosaurus</h3>
+                <p class="text-gray-400 mb-4">Print-in-place, highly detailed dinosaur models. Rigorously tested on the Flashforge 5M Pro.</p>
+                <a href="#" class="block text-center w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-200">Buy Now ($25)</a>
+            </div>
         </div>
-        <button class="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 rounded-md transition">
-          Buy Now
-        </button>
-      </div>
+    </section>
 
-      <!-- Articulated Spinosaurus Models -->
-      <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col justify-between">
-        <div>
-          <div class="w-full h-48 bg-gray-700 rounded-md mb-4 flex items-center justify-center text-gray-500 text-xl select-none">
-            Image Placeholder
-          </div>
-          <h3 class="text-xl font-semibold mb-2">Articulated Spinosaurus Models</h3>
-          <p class="text-gray-400 mb-6">
-            Highly detailed, movable Spinosaurus replicas, perfect for collectors.
-          </p>
-        </div>
-        <button class="bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-2 rounded-md transition">
-          Buy Now
-        </button>
-      </div>
-    </div>
-  </section>
+    <hr class="border-gray-800 max-w-5xl mx-auto">
 
-  <!-- Local D.C. Markets -->
-  <section class="bg-gray-800 py-12 px-6">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl font-semibold mb-4">Local D.C. Markets</h2>
-      <p class="text-gray-400 text-lg">
-        Convenient local pickup available near <strong>Georgetown</strong> and <strong>Eastern Market</strong>. Support local and get your prints fast!
-      </p>
-    </div>
-  </section>
+    <section class="max-w-5xl mx-auto px-6 py-16 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-white">Local D.C. Pickup</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+            Avoid shipping costs. We offer local pickup at pop-up locations near <strong>Georgetown</strong> and <strong>Eastern Market</strong>. Select "Local Pickup" at checkout.
+        </p>
+    </section>
 
-  <!-- Custom Orders Form -->
-  <section class="py-16 px-6 max-w-4xl mx-auto w-full">
-    <h2 class="text-3xl font-semibold mb-8 text-center">Request Custom Design Work</h2>
-    <form action="https://formspree.io/f/mayvlrle" method="POST" class="bg-gray-800 p-8 rounded-lg shadow-lg max-w-lg mx-auto space-y-6" >
-      <label class="block">
-        <span class="text-gray-300">Name</span>
-        <input
-          type="text"
-          name="name"
-          required
-          class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-          placeholder="Your full name"
-        />
-      </label>
-      <label class="block">
-        <span class="text-gray-300">Email</span>
-        <input
-          type="email"
-          name="_replyto"
-          required
-          class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-          placeholder="your.email@example.com"
-        />
-      </label>
-      <label class="block">
-        <span class="text-gray-300">Project Details (Tripo 3.1 / Blender design work)</span>
-        <textarea
-          name="message"
-          rows="4"
-          required
-          class="mt-1 block w-full rounded-md bg-gray-700 border border-gray-600 text-gray-100 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-          placeholder="Describe your custom order requirements"
-        ></textarea>
-      </label>
-      <button
-        type="submit"
-        class="w-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold py-3 rounded-md transition"
-      >
-        Submit Request
-      </button>
-    </form>
-  </section>
+    <hr class="border-gray-800 max-w-5xl mx-auto">
 
-  <footer class="py-6 text-center text-gray-600 text-sm border-t border-gray-700">
-    &copy; 2026 D.C. Custom Prints & Molds
-  </footer>
+    <section class="max-w-3xl mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold mb-6 text-center text-white">Request a Custom Design</h2>
+        <p class="text-gray-400 mb-8 text-center">Need a 2D image converted to a 3D mold via Tripo 3.1? Fill out the form below.</p>
+        
+        <form action="YOUR_FORMSPREE_URL" method="POST" class="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700">
+            <div class="mb-4">
+                <label class="block text-gray-300 font-bold mb-2" for="name">Name</label>
+                <input class="w-full bg-gray-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-blue-500" type="text" id="name" name="name" required>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-300 font-bold mb-2" for="email">Email</label>
+                <input class="w-full bg-gray-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-blue-500" type="email" id="email" name="email" required>
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-300 font-bold mb-2" for="details">Project Details (Include dimensions)</label>
+                <textarea class="w-full bg-gray-900 text-white border border-gray-600 rounded py-2 px-3 h-32 focus:outline-none focus:border-blue-500" id="details" name="details" required></textarea>
+            </div>
+            <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded transition duration-200" type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-8 text-gray-600 border-t border-gray-800">
+        <p>&copy; 2026 D.C. Custom Prints & Molds. Powered by FDM.</p>
+    </footer>
 
 </body>
 </html>
